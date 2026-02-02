@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://bpa1tp8r5ff37"]
+
+[ext_resource type="Script" uid="uid://b5w4p4bmoqy2m" path="res://controll_panel.gd" id="1_02hrl"]
+
+[node name="Controll Panel" type="Node2D" unique_id=659058129]
+script = ExtResource("1_02hrl")
+
+[node name="ReactorButton" type="CheckButton" parent="." unique_id=126307166]
+offset_left = 32.0
+offset_top = 40.0
+offset_right = 182.0
+offset_bottom = 71.0
+text = "Reactor Start"
+
+[node name="ReactorLight" type="ColorRect" parent="." unique_id=2072763652]
+offset_left = 192.0
+offset_top = 40.0
+offset_right = 232.0
+offset_bottom = 80.0
+
+[node name="CoolantButton" type="CheckButton" parent="." unique_id=112283761]
+offset_left = 32.0
+offset_top = 88.0
+offset_right = 182.0
+offset_bottom = 119.0
+text = "Coolant Flow"
+
+[node name="CoolantLight" type="ColorRect" parent="." unique_id=1150748536]
+offset_left = 192.0
+offset_top = 88.0
+offset_right = 232.0
+offset_bottom = 128.0
+
+[node name="ControlRodsButton" type="CheckButton" parent="." unique_id=162509343]
+offset_left = 32.0
+offset_top = 136.0
+offset_right = 182.0
+offset_bottom = 167.0
+text = "Control Rod Drive On"
+
+[node name="ControlRodsLight" type="ColorRect" parent="." unique_id=2097885721]
+offset_left = 256.0
+offset_top = 136.0
+offset_right = 296.0
+offset_bottom = 176.0
+
+[node name="EmergencyButton" type="CheckButton" parent="." unique_id=1256673558]
+offset_left = 32.0
+offset_top = 184.0
+offset_right = 182.0
+offset_bottom = 215.0
+text = "SCRAM"
+
+[node name="EmergencyLight" type="ColorRect" parent="." unique_id=1497781987]
+offset_left = 192.0
+offset_top = 184.0
+offset_right = 232.0
+offset_bottom = 224.0
