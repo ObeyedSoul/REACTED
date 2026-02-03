@@ -6,53 +6,40 @@
 script = ExtResource("1_02hrl")
 
 [node name="ReactorButton" type="CheckButton" parent="." unique_id=126307166]
-offset_left = 32.0
-offset_top = 40.0
-offset_right = 182.0
-offset_bottom = 71.0
+offset_left = 48.0
+offset_top = 72.0
+offset_right = 198.0
+offset_bottom = 103.0
 text = "Reactor Start"
 
 [node name="ReactorLight" type="ColorRect" parent="." unique_id=2072763652]
-offset_left = 192.0
-offset_top = 40.0
-offset_right = 232.0
-offset_bottom = 80.0
-
-[node name="CoolantButton" type="CheckButton" parent="." unique_id=112283761]
-offset_left = 32.0
-offset_top = 88.0
-offset_right = 182.0
-offset_bottom = 119.0
-text = "Coolant Flow"
-
-[node name="CoolantLight" type="ColorRect" parent="." unique_id=1150748536]
-offset_left = 192.0
-offset_top = 88.0
-offset_right = 232.0
-offset_bottom = 128.0
+offset_left = 104.0
+offset_top = 24.0
+offset_right = 144.0
+offset_bottom = 64.0
 
 [node name="ControlRodsButton" type="CheckButton" parent="." unique_id=162509343]
-offset_left = 32.0
-offset_top = 136.0
-offset_right = 182.0
-offset_bottom = 167.0
+offset_left = 552.0
+offset_top = 584.0
+offset_right = 764.0
+offset_bottom = 615.0
 text = "Control Rod Drive On"
 
 [node name="ControlRodsLight" type="ColorRect" parent="." unique_id=2097885721]
-offset_left = 256.0
-offset_top = 136.0
-offset_right = 296.0
-offset_bottom = 176.0
+offset_left = 640.0
+offset_top = 536.0
+offset_right = 680.0
+offset_bottom = 576.0
 
 [node name="EmergencyButton" type="CheckButton" parent="." unique_id=1256673558]
-offset_left = 32.0
-offset_top = 184.0
-offset_right = 182.0
-offset_bottom = 215.0
+offset_left = 856.0
+offset_top = 584.0
+offset_right = 959.0
+offset_bottom = 615.0
 text = "SCRAM"
 
 [node name="EmergencyLight" type="ColorRect" parent="." unique_id=1497781987]
-offset_left = 192.0
-offset_top = 184.0
-offset_right = 232.0
-offset_bottom = 224.0
+offset_left = 888.0
+offset_top = 536.0
+offset_right = 928.0
+offset_bottom = 576.0
