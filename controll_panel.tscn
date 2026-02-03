@@ -2,44 +2,52 @@
 
 [ext_resource type="Script" uid="uid://b5w4p4bmoqy2m" path="res://controll_panel.gd" id="1_02hrl"]
 
-[node name="Controll Panel" type="Node2D" unique_id=659058129]
+[node name="ControlPanel" type="Node2D" unique_id=659058129]
 script = ExtResource("1_02hrl")
 
-[node name="ReactorButton" type="CheckButton" parent="." unique_id=126307166]
-offset_left = 48.0
-offset_top = 72.0
-offset_right = 198.0
-offset_bottom = 103.0
-text = "Reactor Start"
+[node name="ControlRods" type="Node" parent="." unique_id=1052413550]
 
-[node name="ReactorLight" type="ColorRect" parent="." unique_id=2072763652]
-offset_left = 104.0
-offset_top = 24.0
-offset_right = 144.0
-offset_bottom = 64.0
+[node name="FineRodsSwitch" type="Button" parent="ControlRods" unique_id=930101962]
+offset_right = 8.0
+offset_bottom = 8.0
 
-[node name="ControlRodsButton" type="CheckButton" parent="." unique_id=162509343]
-offset_left = 552.0
-offset_top = 584.0
-offset_right = 764.0
-offset_bottom = 615.0
-text = "Control Rod Drive On"
+[node name="FineRodsSpeedSwitch" type="Button" parent="ControlRods" unique_id=115769905]
+offset_right = 8.0
+offset_bottom = 8.0
 
-[node name="ControlRodsLight" type="ColorRect" parent="." unique_id=2097885721]
-offset_left = 640.0
-offset_top = 536.0
-offset_right = 680.0
-offset_bottom = 576.0
+[node name="FineRodInLight" type="ColorRect" parent="ControlRods" unique_id=1539742181]
+offset_right = 40.0
+offset_bottom = 40.0
 
-[node name="EmergencyButton" type="CheckButton" parent="." unique_id=1256673558]
-offset_left = 856.0
-offset_top = 584.0
-offset_right = 959.0
-offset_bottom = 615.0
-text = "SCRAM"
+[node name="FineRodOutLight" type="ColorRect" parent="ControlRods" unique_id=1733993624]
+offset_right = 40.0
+offset_bottom = 40.0
 
-[node name="EmergencyLight" type="ColorRect" parent="." unique_id=1497781987]
-offset_left = 888.0
-offset_top = 536.0
-offset_right = 928.0
-offset_bottom = 576.0
+[node name="FineRodActuatedLight" type="ColorRect" parent="ControlRods" unique_id=1134499540]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SafetyRod1Switch" type="Button" parent="ControlRods" unique_id=2002937256]
+offset_left = 456.0
+offset_right = 464.0
+offset_bottom = 8.0
+
+[node name="SafetyRod1SpeedSwitch" type="Button" parent="ControlRods" unique_id=2027753741]
+offset_left = 456.0
+offset_right = 464.0
+offset_bottom = 8.0
+
+[node name="SafetyRod1InLight" type="ColorRect" parent="ControlRods" unique_id=1486959373]
+offset_left = 456.0
+offset_right = 496.0
+offset_bottom = 40.0
+
+[node name="SafetyRod1OutLight" type="ColorRect" parent="ControlRods" unique_id=1590569305]
+offset_left = 456.0
+offset_right = 496.0
+offset_bottom = 40.0
+
+[node name="SafetyRod1ActuatedLight" type="ColorRect" parent="ControlRods" unique_id=1733717726]
+offset_left = 456.0
+offset_right = 496.0
+offset_bottom = 40.0
